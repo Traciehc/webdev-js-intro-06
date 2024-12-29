@@ -38,7 +38,7 @@ To view the project locally, you can either open the project files in your code 
 #### Part 2
 
 - [X] Navigate to the Assignment Page
-- [ ] Read the assignment overview and output section.
+- [X] Read the assignment overview and output section.
 - [ ] In `assignment.js`:
     - [ ] Finish the logic inside `evenOrOdd()`.
     - [ ] Finish the logic inside `sumTheNumbers()`.
