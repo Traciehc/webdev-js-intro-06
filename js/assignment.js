@@ -9,7 +9,11 @@ function evenOrOdd() {
     const num = 3;
     // Write the logic to decide if the variable "num" is even or odd
     // and set the element's value the string "Even" or "Odd" accordingly
-
+    if (num % 2 === 0) {
+        evenOrOddElement.textContent = "Even";
+    } else {
+        evenOrOddElement.textContent = "Odd";
+    }
 }
 
 function sumTheNumbers() {
@@ -31,7 +35,7 @@ function createNumberArray() {
 
 function render() {
     // Call the created functions
-
+    evenOrOdd();
 }
 
 submissionBtn.addEventListener("click", function () {
